@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavDashboardComponent implements OnInit {
   dashboard = 'Dash';
+  dashdetail = "Explanation"
   constructor() { }
 
   ngOnInit() {
