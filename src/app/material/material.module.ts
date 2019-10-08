@@ -2,7 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { 
   MatSidenavModule,
-  MatGridListModule
+  MatGridListModule,
+  MatRippleModule
   } from '@angular/material';
 
   import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -12,12 +13,14 @@ import {
     CommonModule,
     MatSidenavModule,
     MatGridListModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatRippleModule
   ],
   exports:[
     MatSidenavModule,
     MatGridListModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatRippleModule
     ],
   declarations: []
 })
