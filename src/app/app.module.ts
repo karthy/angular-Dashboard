@@ -10,7 +10,8 @@ import { DashDetailComponent } from './dash-detail/dash-detail.component';
 import { RouterModule, Routes } from '@angular/router';
 
 const appRoutes: Routes = [
-    { path:'home', component: DashDetailComponent},
+    { path:'', component: DashboardComponent},
+    { path:'home', component: DashDetailComponent}
    ]
 
 @NgModule({
