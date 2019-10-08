@@ -14,4 +14,9 @@ import { RouterModule, Routes } from '@angular/router';
   declarations: [ AppComponent, DashboardComponent, NavDashboardComponent, DashDetailComponent ],
   bootstrap:    [ AppComponent ]
 })
-export class AppModule { }
+export class AppModule {
+  const appRoutes: Routes = [
+    { path:"",
+
+  }]
+ }
