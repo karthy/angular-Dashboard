@@ -20,6 +20,6 @@ export class DashboardComponent implements OnInit {
   },
   {
     name: "Peter"
-  }];
+  },];
 
 }

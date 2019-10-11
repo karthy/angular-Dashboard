@@ -2,3 +2,7 @@ p {
   font-family: "Georgia";
   font-weight: bold;
 }
+
+.lightblue{
+  background-color: lightblue !important;
+}
