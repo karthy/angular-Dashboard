@@ -23,7 +23,9 @@ export class DashboardComponent implements OnInit {
     imageUrl:"https://i.pinimg.com/564x/af/9f/77/af9f77d226c128c0fef9312ca3efab87.jpg"
   },
   {
-    name: "Peter"
+    name: "London",
+    country: "England",
+    imageUrl:"https://i.pinimg.com/564x/52/59/58/5259587e56fb83a750c68f3acbcd69ed.jpg"
   },];
 
 }

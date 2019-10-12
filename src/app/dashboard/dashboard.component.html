@@ -1,7 +1,7 @@
 <p>{{ dashboardHeader }}</p>
 <mat-grid-list cols="2" rowHeight="1:1" class="marginl50px">
+  <div *ngFor="let citydetail of citydetails" class="paddingcard">
   <mat-grid-tile>
-<div *ngFor="let citydetail of citydetails" class="paddingcard">
 <mat-card class="example-card">
   <mat-card-header>
     <div mat-card-avatar class="example-header-image"></div>
@@ -17,6 +17,6 @@
     </p>
   </mat-card-content>
 </mat-card>
-</div>
   </mat-grid-tile>
+  </div>
 </mat-grid-list>
