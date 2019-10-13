@@ -4,7 +4,8 @@ import {
   MatSidenavModule,
   MatGridListModule,
   MatRippleModule,
-  MatCardModule
+  MatCardModule,
+  MatButtonModule
   } from '@angular/material';
 
   import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -16,14 +17,16 @@ import {
     MatGridListModule,
     BrowserAnimationsModule,
     MatRippleModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   exports:[
     MatSidenavModule,
     MatGridListModule,
     BrowserAnimationsModule,
     MatRippleModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
     ],
   declarations: []
 })
